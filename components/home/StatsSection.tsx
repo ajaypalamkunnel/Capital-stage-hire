@@ -10,7 +10,7 @@ const stats: StatItem[] = [
   { value: '4.9★', label: 'Average Rating'     },
 ]
 
-export default function StatsSection(): JSX.Element {
+export default function StatsSection() {
   return (
     <section className="bg-black py-16 relative z-20 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-[#050505] to-transparent pointer-events-none" />

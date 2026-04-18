@@ -16,7 +16,7 @@ export default function GradientButton({
   className = '',
   fullWidth = false,
   external = false,
-}: GradientButtonProps): JSX.Element {
+}: GradientButtonProps) {
   const base = `gradient-bg text-black font-bold rounded-full px-8 py-4 transition-transform hover:scale-105 inline-flex items-center justify-center gap-2 ${fullWidth ? 'w-full' : ''} ${className}`
 
   if (href) {

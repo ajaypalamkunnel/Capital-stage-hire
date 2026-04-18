@@ -10,7 +10,7 @@ export default function SectionTitle({
   title,
   subtitle,
   center = false,
-}: SectionTitleProps): JSX.Element {
+}: SectionTitleProps) {
   return (
     <div className={`mb-12 ${center ? 'text-center' : ''}`}>
       {eyebrow && (

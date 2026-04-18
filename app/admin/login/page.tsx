@@ -9,7 +9,7 @@ import GradientButton from '@/components/ui/GradientButton'
 import { Loader2 } from 'lucide-react'
 import { toast } from 'react-hot-toast'
 
-export default function AdminLoginPage(): JSX.Element {
+export default function AdminLoginPage() {
   const [email, setEmail]       = useState<string>('')
   const [password, setPassword] = useState<string>('')
   const [error, setError]       = useState<string | null>(null)

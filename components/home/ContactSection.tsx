@@ -11,7 +11,7 @@ const EVENT_TYPES = [
   'Wedding', 'Birthday', 'Corporate', 'Community', 'Other'
 ] as const
 
-export default function ContactSection(): JSX.Element {
+export default function ContactSection() {
   const [form, setForm] = useState<ContactFormState>({
     name:       '',
     email:      '',

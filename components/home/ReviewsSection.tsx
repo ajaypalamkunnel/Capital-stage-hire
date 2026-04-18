@@ -46,7 +46,7 @@ const reviews: Review[] = [
   },
 ]
 
-export default function ReviewsSection(): JSX.Element {
+export default function ReviewsSection() {
   return (
     <section className="py-24 bg-surface2 border-t border-border overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

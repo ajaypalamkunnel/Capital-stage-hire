@@ -25,7 +25,7 @@ const productLinks: FooterLink[] = [
   { label: 'Welcome Boards',href: '/products?category=welcome-boards'},
 ]
 
-export default async function Footer(): Promise<JSX.Element> {
+export default async function Footer() {
   const { data } = await supabase
     .from('categories')
     .select('name, slug')

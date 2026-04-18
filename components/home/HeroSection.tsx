@@ -10,7 +10,7 @@ interface HeroSectionProps {
   categories: Category[]
 }
 
-export default function HeroSection({ categories }: HeroSectionProps): JSX.Element {
+export default function HeroSection({ categories }: HeroSectionProps) {
   return (
     <section className="relative min-h-[100dvh] bg-[#050505] pt-32 pb-20 overflow-hidden flex items-center">
       {/* Dynamic Background Assets */}

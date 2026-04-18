@@ -12,7 +12,7 @@ interface ImageGalleryProps {
 export default function ImageGallery({
   images,
   name,
-}: ImageGalleryProps): JSX.Element {
+}: ImageGalleryProps) {
   const [active, setActive] = useState<number>(0)
 
   if (!images || images.length === 0) {

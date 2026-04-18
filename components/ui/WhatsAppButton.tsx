@@ -12,7 +12,7 @@ export default function WhatsAppButton({
   label = 'Enquire on WhatsApp',
   fullWidth = false,
   variant = 'primary',
-}: WhatsAppButtonProps): JSX.Element {
+}: WhatsAppButtonProps) {
   const url = getWhatsAppUrl('+61493735612', productName)
 
   if (variant === 'icon') {

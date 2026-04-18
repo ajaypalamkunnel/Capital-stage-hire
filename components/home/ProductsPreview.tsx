@@ -9,7 +9,7 @@ interface ProductsPreviewProps {
 
 export default function ProductsPreview({
   products,
-}: ProductsPreviewProps): JSX.Element {
+}: ProductsPreviewProps) {
   return (
     <section className="py-24 bg-[#0a0a0a] relative overflow-hidden" id="products">
       <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />

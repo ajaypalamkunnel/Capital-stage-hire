@@ -11,7 +11,7 @@ import { ArrowLeft, UploadCloud, X, Loader2 } from 'lucide-react'
 import GradientButton from '@/components/ui/GradientButton'
 import { toast } from 'react-hot-toast'
 
-export default function AddProductPage(): JSX.Element {
+export default function AddProductPage() {
   const [form, setForm] = useState<ProductFormState>({
     name:          '',
     slug:          '',

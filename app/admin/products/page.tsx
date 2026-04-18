@@ -9,7 +9,7 @@ import { supabase } from '@/lib/supabase'
 import { Plus, Eye, EyeOff, Edit, Trash2, Camera, ArrowLeft } from 'lucide-react'
 import { toast } from 'react-hot-toast'
 
-export default function ManageProductsPage(): JSX.Element {
+export default function ManageProductsPage() {
   const [products, setProducts] = useState<ProductWithCategory[]>([])
   const [loading, setLoading]   = useState<boolean>(true)
   const router = useRouter()

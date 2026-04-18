@@ -59,7 +59,7 @@ async function getProducts(
 
 export default async function ProductsPage({
   searchParams,
-}: ProductsPageProps): Promise<JSX.Element> {
+}: ProductsPageProps) {
   const [categories, products] = await Promise.all([
     getCategories(),
     getProducts(searchParams.category, searchParams.search),

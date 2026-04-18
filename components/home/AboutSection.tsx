@@ -2,7 +2,7 @@ import { CalendarDays, MapPin, PackageOpen, Award } from 'lucide-react'
 import GradientButton from '@/components/ui/GradientButton'
 import WhatsAppButton from '@/components/ui/WhatsAppButton'
 
-export default function AboutSection(): JSX.Element {
+export default function AboutSection() {
   return (
     <section className="py-24 bg-black relative" id="about">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

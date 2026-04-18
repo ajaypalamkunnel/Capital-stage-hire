@@ -41,7 +41,7 @@ export async function generateStaticParams(): Promise<{ slug: string }[]> {
   return (data ?? []).map(p => ({ slug: p.slug }))
 }
 
-export default async function ProductDetailPage({ params }: PageProps): Promise<JSX.Element> {
+export default async function ProductDetailPage({ params }: PageProps) {
   const product = await getProduct(params.slug)
   if (!product) notFound()
 

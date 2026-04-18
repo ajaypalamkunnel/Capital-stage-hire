@@ -10,7 +10,7 @@ import { ArrowLeft, Plus, Eye, EyeOff, Trash2, ListTree } from 'lucide-react'
 import GradientButton from '@/components/ui/GradientButton'
 import { toast } from 'react-hot-toast'
 
-export default function AdminCategoriesPage(): JSX.Element {
+export default function AdminCategoriesPage() {
   const [categories, setCategories] = useState<Category[]>([])
   const [loading, setLoading]       = useState<boolean>(true)
   const [newName, setNewName]       = useState<string>('')

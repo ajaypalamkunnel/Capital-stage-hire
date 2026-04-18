@@ -10,7 +10,7 @@ import type { ProductWithCategory, Category } from '@/types/database'
 export const dynamic = 'force-dynamic'
 export const revalidate = 0
 
-export default async function HomePage(): Promise<JSX.Element> {
+export default async function HomePage() {
   const [productsResponse, categoriesResponse] = await Promise.all([
     supabase
       .from('products')

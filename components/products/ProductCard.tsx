@@ -10,7 +10,7 @@ interface ProductCardProps {
   product: ProductWithCategory
 }
 
-export default function ProductCard({ product }: ProductCardProps): JSX.Element {
+export default function ProductCard({ product }: ProductCardProps) {
   const imageUrl = product.image_urls?.[0]
   const categoryName = product.categories?.name ?? 'Hire Item'
 

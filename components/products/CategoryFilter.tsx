@@ -11,7 +11,7 @@ interface CategoryFilterProps {
 export default function CategoryFilter({
   categories,
   selected,
-}: CategoryFilterProps): JSX.Element {
+}: CategoryFilterProps) {
   const router = useRouter()
   const searchParams = useSearchParams()
 

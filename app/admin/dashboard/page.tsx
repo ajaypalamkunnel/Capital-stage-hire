@@ -7,7 +7,7 @@ import type { Session } from '@supabase/supabase-js'
 import { supabase } from '@/lib/supabase'
 import { LogOut, Package, ListTree, Eye, EyeOff } from 'lucide-react'
 
-export default function AdminDashboard(): JSX.Element {
+export default function AdminDashboard() {
   const [session, setSession] = useState<Session | null>(null)
   const [stats, setStats] = useState<{
     totalProducts:      number

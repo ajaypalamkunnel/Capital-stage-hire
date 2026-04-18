@@ -17,7 +17,7 @@ const navLinks: NavLink[] = [
   { label: 'Contact', href: '/#contact' },
 ]
 
-export default function Navbar(): JSX.Element {
+export default function Navbar() {
   const [isOpen, setIsOpen] = useState<boolean>(false)
   const [scrolled, setScrolled] = useState<boolean>(false)
 
