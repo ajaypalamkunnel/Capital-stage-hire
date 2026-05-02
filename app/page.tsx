@@ -2,6 +2,7 @@ import HeroSection from '@/components/home/HeroSection'
 import StatsSection from '@/components/home/StatsSection'
 import ProductsPreview from '@/components/home/ProductsPreview'
 import ReviewsSection from '@/components/home/ReviewsSection'
+import GallerySection from '@/components/home/GallerySection'
 import AboutSection from '@/components/home/AboutSection'
 import ContactSection from '@/components/home/ContactSection'
 import { supabase } from '@/lib/supabase'
@@ -33,6 +34,7 @@ export default async function HomePage() {
       <HeroSection categories={categories} />
       <StatsSection />
       <ProductsPreview products={products} />
+      <GallerySection />
       <ReviewsSection />
       <AboutSection />
       <ContactSection />

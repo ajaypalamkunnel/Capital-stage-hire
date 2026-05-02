@@ -20,6 +20,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.capitalstagehire.com'),
   title: {
     default: 'Capital Stage Hire | Event Furniture & Equipment Hire Sydney',
     template: '%s | Capital Stage Hire Sydney',
@@ -31,14 +32,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_AU',
-    url: 'https://www.capitalstagehicapitalstagehicapitalstagehicre.com.au',
+    url: 'https://www.capitalstagehire.com',
     siteName: 'Capital Stage Hire',
     images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
   },
   twitter: { card: 'summary_large_image' },
   robots: { index: true, follow: true },
   alternates: {
-    canonical: 'https://www.capitalstagehicapitalstagehicapitalstagehicre.com.au',
+    canonical: 'https://www.capitalstagehire.com',
   },
 }
 

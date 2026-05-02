@@ -99,8 +99,8 @@ export default async function Footer() {
               </li>
               <li>
                 <span className="block text-white mb-1">Email:</span>
-                <a href="mailto:info@capitalstagehire.com.au" className="hover:text-white transition-colors">
-                  info@capitalstagehire.com.au
+                <a href="mailto:info@capitalstagehire.com" className="hover:text-white transition-colors">
+                  info@capitalstagehire.com
                 </a>
               </li>
               <li>

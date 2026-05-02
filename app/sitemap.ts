@@ -8,7 +8,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     .eq('is_visible', true)
 
   const productUrls: MetadataRoute.Sitemap = (products ?? []).map(p => ({
-    url: `https://www.capitalstagehicre.com.au/products/${p.slug}`,
+    url: `https://www.capitalstagehire.com/products/${p.slug}`,
     lastModified:    new Date(p.updated_at),
     changeFrequency: 'weekly',
     priority:        0.8,
@@ -16,13 +16,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   return [
     {
-      url: 'https://www.capitalstagehicre.com.au',
+      url: 'https://www.capitalstagehire.com',
       lastModified:    new Date(),
       changeFrequency: 'daily',
       priority:        1,
     },
     {
-      url: 'https://www.capitalstagehicre.com.au/products',
+      url: 'https://www.capitalstagehire.com/products',
       lastModified:    new Date(),
       changeFrequency: 'daily',
       priority:        0.9,

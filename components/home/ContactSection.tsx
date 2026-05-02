@@ -70,7 +70,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <div className="text-white font-bold mb-1">Email</div>
-                    <a href="mailto:info@capitalstagehire.com.au" className="text-muted hover:text-gold transition-colors">info@capitalstagehire.com.au</a>
+                    <a href="mailto:info@capitalstagehire.com" className="text-muted hover:text-gold transition-colors">info@capitalstagehire.com</a>
                   </div>
                 </div>
 
