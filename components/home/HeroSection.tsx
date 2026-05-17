@@ -29,7 +29,7 @@ export default function HeroSection({ categories }: HeroSectionProps) {
                 <span className="relative inline-flex rounded-full h-3 w-3 bg-gold"></span>
               </span>
               <span className="text-white/90 font-medium text-xs tracking-wider uppercase">
-                Sydney's Premier Event Hire
+                Canberra Australia ACT's Premier Event Hire
               </span>
             </div>
 
@@ -56,7 +56,7 @@ export default function HeroSection({ categories }: HeroSectionProps) {
               {[
                 'Premium Quality',
                 'On-Time Delivery',
-                'Sydney Wide',
+                'Canberra Australia ACT Wide',
               ].map((text) => (
                 <div key={text} className="flex items-center gap-2">
                   <CheckCircle size={20} className="text-gold" />

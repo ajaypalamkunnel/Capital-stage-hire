@@ -12,7 +12,7 @@ export default function AboutSection() {
           <div className="grid grid-cols-2 gap-4 md:gap-6">
             {[
               { icon: CalendarDays, title: 'Est. 2016', desc: 'Years of trust' },
-              { icon: MapPin, title: 'Sydney Wide', desc: 'We deliver everywhere' },
+              { icon: MapPin, title: 'Canberra Australia ACT Wide', desc: 'We deliver everywhere' },
               { icon: PackageOpen, title: '50+ Items', desc: 'Extensive inventory' },
               { icon: Award, title: '500+ Events', desc: 'Successfully completed' },
             ].map((feature, idx) => (
@@ -36,7 +36,7 @@ export default function AboutSection() {
             </h2>
             
             <p className="text-muted text-lg mb-6 leading-relaxed">
-              Based in the heart of Sydney, Capital Stage Hire has grown from a humble chair rental service into one of Greater Sydney's premier event suppliers. We understand that every event is unique and deeply personal.
+              Based in the heart of Canberra Australia ACT, Capital Stage Hire has grown from a humble chair rental service into one of Canberra Australia ACT's premier event suppliers. We understand that every event is unique and deeply personal.
             </p>
             
             <p className="text-muted text-lg mb-8 leading-relaxed">

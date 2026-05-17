@@ -22,12 +22,12 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.capitalstagehire.com'),
   title: {
-    default: 'Capital Stage Hire | Event Furniture & Equipment Hire Sydney',
-    template: '%s | Capital Stage Hire Sydney',
+    default: 'Capital Stage Hire | Event Furniture & Equipment Hire Canberra Australia ACT',
+    template: '%s | Capital Stage Hire Canberra Australia ACT',
   },
-  description: "Sydney's premier event hire company. Rent chairs, tables, lighting, staging, curtains and decorations for weddings, parties and corporate events across Greater Sydney.",
-  keywords: ['event hire Sydney', 'chair hire Sydney', 'table hire Sydney',
-             'wedding furniture hire', 'stage hire Sydney', 'event rental Sydney',
+  description: "Canberra Australia ACT's premier event hire company. Rent chairs, tables, lighting, staging, curtains and decorations for weddings, parties and corporate events across Canberra Australia ACT.",
+  keywords: ['event hire Canberra Australia ACT', 'chair hire Canberra Australia ACT', 'table hire Canberra Australia ACT',
+             'wedding furniture hire', 'stage hire Canberra Australia ACT', 'event rental Canberra Australia ACT',
              'Capital Stage Hire'],
   openGraph: {
     type: 'website',

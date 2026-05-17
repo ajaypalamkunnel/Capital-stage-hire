@@ -6,19 +6,18 @@ import { X, ChevronLeft, ChevronRight, Maximize2 } from 'lucide-react'
 import SectionTitle from '@/components/ui/SectionTitle'
 
 const images = [
-  { src: '/gallery_images/capital-stage-hire-event-setup-1.jpg', alt: 'Capital Stage Hire Event Setup' },
-  { src: '/gallery_images/capital-stage-hire-outdoor-stage-2.jpg', alt: 'Capital Stage Hire Outdoor Stage' },
-  { src: '/gallery_images/professional-stage-lighting-setup-3.jpg', alt: 'Professional Stage Lighting Setup' },
-  { src: '/gallery_images/corporate-event-stage-design-4.jpg', alt: 'Corporate Event Stage Design' },
-  { src: '/gallery_images/wedding-stage-decoration-hire-5.jpg', alt: 'Wedding Stage Decoration Hire' },
-  { src: '/gallery_images/concert-stage-rental-services-6.jpg', alt: 'Concert Stage Rental Services' },
-  { src: '/gallery_images/premium-event-furniture-hire-7.jpg', alt: 'Premium Event Furniture Hire' },
-  { src: '/gallery_images/capital-events-stage-platform-8.jpg', alt: 'Capital Events Stage Platform' },
-  { src: '/gallery_images/live-music-performance-stage-9.jpg', alt: 'Live Music Performance Stage' },
-  { src: '/gallery_images/custom-stage-backdrop-hire-10.jpg', alt: 'Custom Stage Backdrop Hire' },
-  { src: '/gallery_images/festival-stage-sound-system-11.jpg', alt: 'Festival Stage Sound System' },
-  { src: '/gallery_images/gala-dinner-stage-setup-12.jpg', alt: 'Gala Dinner Stage Setup' },
-  { src: '/gallery_images/exhibition-stand-stage-hire-13.jpg', alt: 'Exhibition Stand Stage Hire' },
+  { src: '/gallery_images_latest/canberra-wedding-chair-hire-setup.jpg', alt: 'Canberra Wedding Chair Hire Setup' },
+  { src: '/gallery_images_latest/premium-event-furniture-hire-canberra.jpg', alt: 'Premium Event Furniture Hire Canberra' },
+  { src: '/gallery_images_latest/capital-stage-hire-canberra-event-setup.jpg', alt: 'Capital Stage Hire Canberra Event Setup' },
+  { src: '/gallery_images_latest/outdoor-stage-hire-canberra-act.jpg', alt: 'Outdoor Stage Hire Canberra ACT' },
+  { src: '/gallery_images_latest/wedding-reception-furniture-canberra.jpg', alt: 'Wedding Reception Furniture Canberra' },
+  { src: '/gallery_images_latest/corporate-event-lighting-stage-canberra.jpg', alt: 'Corporate Event Lighting Stage Canberra' },
+  { src: '/gallery_images_latest/tiffany-chair-rental-canberra-australia.jpg', alt: 'Tiffany Chair Rental Canberra Australia' },
+  { src: '/gallery_images_latest/party-decorations-hire-canberra-act.jpg', alt: 'Party Decorations Hire Canberra ACT' },
+  { src: '/gallery_images_latest/gala-dinner-stage-setup-canberra.jpg', alt: 'Gala Dinner Stage Setup Canberra' },
+  { src: '/gallery_images_latest/festival-stage-sound-system-canberra.jpg', alt: 'Festival Stage Sound System Canberra' },
+  { src: '/gallery_images_latest/welcome-board-hire-canberra-australia.jpg', alt: 'Welcome Board Hire Canberra Australia' },
+  { src: '/gallery_images_latest/exhibition-stand-furniture-canberra.jpg', alt: 'Exhibition Stand Furniture Canberra' },
 ]
 
 export default function GallerySection() {

@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const product = await getProduct(params.slug)
   if (!product) return { title: 'Product Not Found' }
   return {
-    title: `${product.name} Hire Sydney`,
+    title: `${product.name} Hire Canberra Australia ACT`,
     description: product.description?.slice(0, 160) ?? '',
     openGraph: {
       images: product.image_urls?.[0] ? [{ url: product.image_urls[0] }] : [],

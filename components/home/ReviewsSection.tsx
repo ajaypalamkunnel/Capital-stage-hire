@@ -6,7 +6,7 @@ import type { Review } from '@/types/database'
 const reviews: Review[] = [
   {
     name:     'Sarah Mitchell',
-    location: 'Parramatta, Sydney',
+    location: 'Parramatta, Canberra Australia ACT',
     rating:   5,
     text:     'Capital Stage Hire made our wedding absolutely perfect. The Tiffany chairs and floral arch were stunning. Delivery was on time and the team was incredibly helpful.',
     event:    'Wedding Reception',
@@ -14,7 +14,7 @@ const reviews: Review[] = [
   },
   {
     name:     'James Nguyen',
-    location: 'Bankstown, Sydney',
+    location: 'Bankstown, Canberra Australia ACT',
     rating:   5,
     text:     'Used them for our corporate gala dinner. 200 chairs, 20 tables, full lighting setup — everything was flawless. Will definitely book again.',
     event:    'Corporate Gala',
@@ -22,7 +22,7 @@ const reviews: Review[] = [
   },
   {
     name:     'Priya Sharma',
-    location: 'Blacktown, Sydney',
+    location: 'Blacktown, Canberra Australia ACT',
     rating:   5,
     text:     "Booked the fairy lights and curtain backdrop for my daughter's 18th. The setup looked incredible. Very professional and affordable.",
     event:    'Birthday Party',
@@ -30,7 +30,7 @@ const reviews: Review[] = [
   },
   {
     name:     'David Thompson',
-    location: 'Liverpool, Sydney',
+    location: 'Liverpool, Canberra Australia ACT',
     rating:   5,
     text:     "Great range of products and super easy to deal with over WhatsApp. They helped me plan the whole setup for my wife's surprise party. Highly recommend.",
     event:    'Surprise Party',
@@ -38,7 +38,7 @@ const reviews: Review[] = [
   },
   {
     name:     'Angela Russo',
-    location: 'Campbelltown, Sydney',
+    location: 'Campbelltown, Canberra Australia ACT',
     rating:   4,
     text:     'Really happy with the staging and podium hire for our community event. Solid quality, fair price. Pickup and return was straightforward.',
     event:    'Community Event',

@@ -81,7 +81,7 @@ export default function ContactSection() {
                   <div>
                     <div className="text-white font-bold mb-1">Location</div>
                     <a href="https://maps.app.goo.gl/4aMAoQ8fRKjixdoM6?g_st=aw" target="_blank" rel="noopener noreferrer" className="text-muted hover:text-gold transition-colors">
-                      Greater Sydney, NSW<br/>
+                      Canberra Australia ACT<br/>
                       <span className="text-xs text-gold">View on Maps</span>
                     </a>
                   </div>

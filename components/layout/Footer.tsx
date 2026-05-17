@@ -49,7 +49,7 @@ export default async function Footer() {
               />
             </Link>
             <p className="text-muted text-sm leading-relaxed mb-6">
-              Sydney's premier event hire company. Supplying premium furniture, lighting, and décor for weddings, parties, and corporate events across Greater Sydney.
+              Canberra Australia ACT's premier event hire company. Supplying premium furniture, lighting, and décor for weddings, parties, and corporate events across Canberra Australia ACT.
             </p>
           </div>
 
@@ -111,7 +111,7 @@ export default async function Footer() {
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors block leading-relaxed"
                 >
-                  Greater Sydney, NSW<br />
+                  Canberra Australia ACT<br />
                   <span className="text-xs text-gold">View on Google Maps &rarr;</span>
                 </a>
               </li>

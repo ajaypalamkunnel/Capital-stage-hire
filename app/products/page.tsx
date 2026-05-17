@@ -17,8 +17,8 @@ interface ProductsPageProps {
 }
 
 export const metadata: Metadata = {
-  title: 'Event Hire Products | Chairs, Tables, Lighting & More Sydney',
-  description: "Browse Capital Stage Hire's full range of event hire products. Chairs, tables, lighting, staging, curtains and decorations available across Greater Sydney.",
+  title: 'Event Hire Products | Chairs, Tables, Lighting & More Canberra Australia ACT',
+  description: "Browse Capital Stage Hire's full range of event hire products. Chairs, tables, lighting, staging, curtains and decorations available across Canberra Australia ACT.",
 }
 
 async function getCategories(): Promise<Category[]> {
