@@ -41,6 +41,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.capitalstagehire.com',
   },
+  verification: {
+    google: 'PZWoqK8hz3N1GRSTE2spsnzfU-AIWJ_X84vXR0U3uhU',
+  },
 }
 
 export default function RootLayout({
