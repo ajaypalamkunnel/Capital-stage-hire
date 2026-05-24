@@ -5,24 +5,24 @@ import type { Category } from '@/types/database'
 
 interface FooterLink {
   label: string
-  href:  string
+  href: string
 }
 
 const quickLinks: FooterLink[] = [
-  { label: 'Home',     href: '/'         },
+  { label: 'Home', href: '/' },
   { label: 'Products', href: '/products' },
-  { label: 'About',    href: '/#about'   },
-  { label: 'Contact',  href: '/#contact' },
+  { label: 'About', href: '/#about' },
+  { label: 'Contact', href: '/#contact' },
 ]
 
 const productLinks: FooterLink[] = [
-  { label: 'Chairs',        href: '/products?category=chairs'        },
-  { label: 'Tables',        href: '/products?category=tables'        },
-  { label: 'Lighting',      href: '/products?category=lighting'      },
-  { label: 'Curtains',      href: '/products?category=curtains'      },
-  { label: 'Decorations',   href: '/products?category=decorations'   },
-  { label: 'Staging',       href: '/products?category=staging'       },
-  { label: 'Welcome Boards',href: '/products?category=welcome-boards'},
+  { label: 'Chairs', href: '/products?category=chairs' },
+  { label: 'Tables', href: '/products?category=tables' },
+  { label: 'Lighting', href: '/products?category=lighting' },
+  { label: 'Curtains', href: '/products?category=curtains' },
+  { label: 'Decorations', href: '/products?category=decorations' },
+  { label: 'Staging', href: '/products?category=staging' },
+  { label: 'Welcome Boards', href: '/products?category=welcome-boards' },
 ]
 
 export default async function Footer() {
@@ -31,7 +31,7 @@ export default async function Footer() {
     .select('name, slug')
     .eq('is_active', true)
     .order('display_order', { ascending: true })
-    
+
   const dynamicCategories: Pick<Category, 'name' | 'slug'>[] = (data as unknown as Pick<Category, 'name' | 'slug'>[]) ?? []
   return (
     <footer className="bg-[#0a0a0a] border-t border-border pt-16 pb-8">
@@ -40,11 +40,11 @@ export default async function Footer() {
           {/* Brand & Contact */}
           <div className="md:col-span-2">
             <Link href="/" className="inline-block mb-6">
-              <Image 
-                src="/capital_stage_hire_logo.jpg" 
-                alt="Capital Stage Hire" 
-                width={200} 
-                height={60} 
+              <Image
+                src="/capital_stage_hire_logo.jpg"
+                alt="Capital Stage Hire"
+                width={200}
+                height={60}
                 className="h-12 w-auto object-contain rounded-md"
               />
             </Link>
@@ -99,15 +99,17 @@ export default async function Footer() {
               </li>
               <li>
                 <span className="block text-white mb-1">Email:</span>
-                <a href="mailto:info@capitalstagehire.com" className="hover:text-white transition-colors">
-                  info@capitalstagehire.com
+                <a href="mailto:capitaleventsadmin@gmail.com
+" className="hover:text-white transition-colors">
+                  capitaleventsadmin@gmail.com
+
                 </a>
               </li>
               <li>
                 <span className="block text-white mb-1">Location:</span>
-                <a 
-                  href="https://maps.app.goo.gl/4aMAoQ8fRKjixdoM6?g_st=aw" 
-                  target="_blank" 
+                <a
+                  href="https://maps.app.goo.gl/4aMAoQ8fRKjixdoM6?g_st=aw"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors block leading-relaxed"
                 >
